@@ -4,7 +4,12 @@ Generates a transparent image in the residues are drawn from a JSON file
 ## Compiling 
 `mvn package`
 
-## Example:
+## Usage:
+`[option: -d: to display the image ] <image width> <image height> <json path>`
+
+
+### Example:
+
 `java -jar target/image-residual-1.0-SNAPSHOT-spring-boot.jar -d 1000 1000 comparison_js_dummy_v3.json`
 
 ## Results
